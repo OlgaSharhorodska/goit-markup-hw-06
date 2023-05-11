@@ -993,6 +993,7 @@ margin-top: 8px;
 {
 width: 360px;
 height: 40px;
+padding-left: 38px;
 
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
@@ -1031,7 +1032,7 @@ resize: none;
 margin-bottom: 16px;
 }
 
-.modal-input-wrraper:focus
+.modal-input:focus + .modal-input-svg
 {
 fill:#4D5AE5;
 border-color: #4D5AE5;
