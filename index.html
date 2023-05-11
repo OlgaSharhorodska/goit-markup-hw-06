@@ -441,8 +441,44 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+      <form>
+      <p class="modal-form">Leave your contacts and we will call you back</p>
+      <label class="modal-name" for="modal_name">Name</label>
+      <div class="modal-input-wrapper">
+      <input class="modal-input" type="text" name="modal_name" id="modal_name">
+      <svg class="modal-input-svg" widht="18" height="18">
+      <use href="./images/icons.svg#icon-person"></use>
+      </svg>
       </div>
+      <label class="modal-name" for="modal_phone">Phone</label>
+      <div class="modal-input-wrapper">
+      <input class="modal-input" type="tel" name="modal_phone" id="modal_phone">
+      <svg class="modal-input-svg" widht="18" height="24">
+      <use href="./images/icons.svg#icon-phone"></use>
+      </svg>
+      </div>
+      <label class="modal-name" for="modal_email">Email</label>
+      <div class="modal-input-wrapper">
+      <input class="modal-input" type="email" name="modal_email" id="modal_email">
+      <svg class="modal-input-svg" widht="18" height="24">
+      <use href="./images/icons.svg#icon-email"></use>
+      </svg>
+      </div>
+      <label class="modal-name" for="modal_comment">Comment</label>
+      <textarea class="modal-comment"
+      name="modal_comment"
+      id="modal_comment" 
+      placeholder="Text input"></textarea>
+      <label for="modal_agreement">
+        <input type="checkbox" name="modal_agreement" id="modal_agreement">
+        <span class="modal-name">I accept the terms and conditions of the <a href="">Privacy Policy</a></span>
+      </label>
+      <button class="modal-btm-send" type="submit">Send</button>
+    </form>
+      </div>
+      
     </div>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
