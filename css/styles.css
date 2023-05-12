@@ -710,6 +710,14 @@ margin-right: 24px;
 padding-left: 16px;
 }
 
+.email-footer::placeholder
+{
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+
 .subscribe-btn
 {
 justify-content: center;
@@ -1017,7 +1025,7 @@ transition: fill var(--transition-dur-func);
 
 .modal-comment
 {
-width: 360px;
+width: 100%;
 height: 120px;
 padding-left: 16px;
 padding-top: 8px;
@@ -1033,6 +1041,14 @@ resize: none;
 
 margin-bottom: 16px;
 transition: border-color var(--transition-dur-func);
+}
+
+.modal-comment::placeholder
+{
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-input:focus,
