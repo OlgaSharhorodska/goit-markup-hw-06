@@ -997,6 +997,7 @@ padding-left: 38px;
 
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
+transition: border-color var(--transition-dur-func);
 }
 
 .modal-input-wrapper
@@ -1011,6 +1012,7 @@ position: absolute;
 top: 8px;
 left: -125px;
 fill:#2E2F42;
+transition: fill var(--transition-dur-func);
 }
 
 .modal-comment
@@ -1030,12 +1032,19 @@ border-radius: 4px;
 resize: none;
 
 margin-bottom: 16px;
+transition: border-color var(--transition-dur-func);
+}
+
+.modal-input:focus,
+.modal-comment:focus
+{
+outline: none;
+border-color: #4D5AE5;
 }
 
 .modal-input:focus + .modal-input-svg
 {
-fill:#4D5AE5;
-border-color: #4D5AE5;
+fill: #4D5AE5;
 }
 
 .modal-btm-send
