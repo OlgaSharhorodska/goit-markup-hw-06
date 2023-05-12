@@ -58,7 +58,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-main">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button" data-modal-open>Order Service</button>
+          <button class="hero-modal-button" type="button" data-modal-open>Order Service</button>
         </div>
       </section>
 
@@ -469,11 +469,15 @@
       name="modal_comment"
       id="modal_comment" 
       placeholder="Text input"></textarea>
-      <label for="modal_agreement">
-        <input type="checkbox" name="modal_agreement" id="modal_agreement">
-        <span class="modal-name">I accept the terms and conditions of the <a href="">Privacy Policy</a></span>
+      <label  class="modal-agreement" for="modal_agreement">
+        <input  class="form-check-input" type="checkbox" name="modal_agreement" id="modal_agreement">
+        <svg class="form-custom-check" width="16" height="16">
+          <use  class="unchecked" href="./images/icons.svg#icon-unchecked"></use>
+          <use class="checked" href="./images/icons.svg#icon-checked"></svg>
+        </svg>
+        <span class="modal-name agreement">I accept the terms and conditions of the <a href="">Privacy Policy</a></span>
       </label>
-      <button class="modal-btm-send" type="submit">Send</button>
+      <button class="hero-modal-button" type="submit">Send</button>
     </form>
       </div>
       
