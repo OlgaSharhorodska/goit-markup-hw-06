@@ -727,12 +727,13 @@ color: #FFFFFF;
 
 .subscribe-btn
 {
+border: none;
 justify-content: center;
 align-items: center;
 padding: 8px 24px;
 gap: 16px;
 background: var(--accent-color);
-border-color: var(--accent-color) ;
+border-color: var(--accent-color);
 border-radius: 4px;
 
 font-weight: 500;
@@ -740,7 +741,6 @@ font-size: 16px;
 line-height: 1.5;
 
 display: flex;
-align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 
@@ -1003,7 +1003,6 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.01em;
 color: #8E8F99;
-margin-bottom: 4px;
 margin-top: 8px;
 
 }
@@ -1024,6 +1023,7 @@ transition: border-color var(--transition-dur-func);
 {
 position: relative;
 margin-bottom: 8px;
+margin-top: 4px;
 }
 
 .modal-input-svg
@@ -1075,14 +1075,19 @@ fill: #4D5AE5;
 .agreement 
 {
 user-select: none;
+margin-top: 16px;
 }
 
+.form-custom-check
+{
+margin-top: 16px;
+margin-right: 8px;
+}
 .modal-agreement
 {
 display: flex;
-justify-content: start;
 align-items: center;
-gap: 8px;
+
 }
 
 .policy-link
