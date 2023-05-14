@@ -1048,7 +1048,8 @@ padding-top: 8px;
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
 resize: none;
-
+margin-top: 4px;
+margin-bottom: 16px;
 transition: border-color var(--transition-dur-func);
 }
 
@@ -1075,12 +1076,11 @@ fill: #4D5AE5;
 .agreement 
 {
 user-select: none;
-margin-top: 16px;
+margin-top: 0;
 }
 
 .form-custom-check
 {
-margin-top: 16px;
 margin-right: 8px;
 }
 .modal-agreement
